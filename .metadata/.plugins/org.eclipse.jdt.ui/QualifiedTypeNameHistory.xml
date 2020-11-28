@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.phone.OS"/>
+<fullyQualifiedTypeName name="com.phone.Android"/>
+<fullyQualifiedTypeName name="com.phone.IOS"/>
+<fullyQualifiedTypeName name="com.phone.Windows"/>
+<fullyQualifiedTypeName name="com.phone.OperatingSystemFactory"/>
+<fullyQualifiedTypeName name="com.phone.PhoneBuilder"/>
+<fullyQualifiedTypeName name="com.adap.AssignmentWork"/>
+</qualifiedTypeNameHistroy>

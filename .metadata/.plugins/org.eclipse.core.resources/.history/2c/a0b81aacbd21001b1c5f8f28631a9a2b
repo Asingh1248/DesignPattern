@@ -1,0 +1,8 @@
+package com.phone;
+
+public class PhoneBuilder {
+	   private String os;
+	   private int ram;
+	   private String processor;
+	   private int battery;
+}

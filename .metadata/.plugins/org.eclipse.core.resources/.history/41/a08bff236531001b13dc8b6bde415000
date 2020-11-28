@@ -1,0 +1,17 @@
+package com.animesh.prototype;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		BookShop bs = new BookShop();
+		// Assigning the value from Db
+		bs.loadData();
+		
+		System.out.println(bs); // First Value is null + Books is 0
+		
+	
+		
+
+	}
+
+}

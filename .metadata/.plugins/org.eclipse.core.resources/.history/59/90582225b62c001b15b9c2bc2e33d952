@@ -1,0 +1,14 @@
+package com.animesh.composite;
+
+interface Component{
+	void showPrice();
+}
+
+class Leaf {
+
+}
+
+class Composite {
+
+}
+

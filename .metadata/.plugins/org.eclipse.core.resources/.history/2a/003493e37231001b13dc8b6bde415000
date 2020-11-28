@@ -1,0 +1,14 @@
+package com.animesh;
+
+public class Youtube {
+   public static void main(String args[]) {
+	   
+	   Channel telusko = new Channel();
+	   
+	   Subscriber s1 = new Subscriber("Animesh");
+	   Subscriber s2 = new Subscriber("Abshiehk");
+	   Subscriber s3 = new Subscriber("Animesh");
+	   Subscriber s4 = new Subscriber("Animesh");
+	   Subscriber s5 = new Subscriber("Animesh");
+   }
+}

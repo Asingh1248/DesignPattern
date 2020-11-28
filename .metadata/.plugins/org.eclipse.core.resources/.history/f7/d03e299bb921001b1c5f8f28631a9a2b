@@ -1,0 +1,9 @@
+import com.phone.Android;
+import com.phone.*;
+
+public class FactoryMain {
+   public static void main(String [] args) {
+	   OS o = new Android();
+	   
+   }
+}

@@ -1,0 +1,7 @@
+package com.phone;
+
+public class Android {
+   public void sepc() {
+	   System.out.println("Most Powerful OS");
+   }
+}

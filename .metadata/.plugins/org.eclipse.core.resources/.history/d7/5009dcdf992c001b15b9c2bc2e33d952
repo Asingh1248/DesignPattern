@@ -1,0 +1,16 @@
+package com.adap;
+
+public class School {
+
+	public static void main(String[] args) {
+		//Main Method In every school we get the Assignment
+	   AssignmentWork aw= new AssignmentWork();
+	   aw.setP(p);  // Interface --> Write Implm --> Size,height, --> Friend Object of Friend Interface but he does'nt ha sit  
+	   aw.writeAssignment("I am bit tired to write an Assignment");
+	   // java.lang.NullPointerException
+	   // Problem : Pen writes the data
+	   // We are calling writeAssignment --> calling p --> Not Assigned any Memory to P
+	   
+	}
+
+}

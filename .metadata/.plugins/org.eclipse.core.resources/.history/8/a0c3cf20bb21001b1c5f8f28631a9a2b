@@ -1,0 +1,18 @@
+import com.phone.*;
+
+public class FactoryMain {
+   public static void main(String [] args) {
+	   //OS o = new Android();
+	  // OS o = new Windows();
+	   // Suppose in future Windows beomes good and its famous --> then we need to change the implementation of the Windows class--> Recompile it
+	   //Which is not good way --> Windows Gives Implementaion heres itself
+	   // i.e Clients knows which classes you are working with
+	   // You Motto : your clients should not know which classes you are working with.
+	   
+	   OperatingSystemFactory osf = new OperatingSystemFactory();
+	   OS obj= osf.getInstance("Open");
+	   // Factory : manufacturing the Object 
+	   
+	   obj.spec();
+   }
+}

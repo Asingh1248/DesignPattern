@@ -1,0 +1,12 @@
+package com.animesh.composite;
+
+
+	class Leaf{
+		
+	}
+	
+	class Composite{
+		
+		
+	}
+

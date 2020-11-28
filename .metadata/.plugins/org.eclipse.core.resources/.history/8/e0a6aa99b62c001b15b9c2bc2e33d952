@@ -1,0 +1,37 @@
+package com.animesh.composite;
+
+import java.util.ArrayList;
+import java.util.List;
+
+interface Component{
+	void showPrice();
+}
+
+class Leaf implements Component{
+    int price;
+    String name;
+	@Override
+	public void showPrice() {
+
+		
+	}
+
+}
+
+class Composite implements Component {
+   
+	String name;
+	List<Component> components = new ArrayList<>();
+	 //It contains Another Composite Object and Leaf Object
+	
+	public void addComponent(Component com) {
+		components.add(com);
+	}
+	@Override
+	public void showPrice() {
+	
+		
+	}
+
+}
+

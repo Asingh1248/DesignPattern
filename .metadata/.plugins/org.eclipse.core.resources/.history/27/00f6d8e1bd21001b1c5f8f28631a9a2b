@@ -1,0 +1,25 @@
+package com.phone;
+
+public class PhoneBuilder {
+	
+	   private String os;
+	   private int ram;
+	   private String processor;
+	   private int battery;
+	   
+	   
+	public PhoneBuider setOs(String os) {
+		this.os = os;
+	}
+	public PhoneBuider setRam(int ram) {
+		this.ram = ram;
+	}
+	public PhoneBuider setProcessor(String processor) {
+		this.processor = processor;
+	}
+	public PhoneBuider setBattery(int battery) {
+		this.battery = battery;
+	}
+	   
+	   
+}

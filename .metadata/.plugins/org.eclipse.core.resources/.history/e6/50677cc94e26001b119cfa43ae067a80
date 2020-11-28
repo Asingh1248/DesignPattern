@@ -1,0 +1,11 @@
+package com.adap;
+
+public class School {
+
+	public static void main(String[] args) {
+		//Main Method In every school we get the Assignment
+	   AssignmentWork aw= new AssignmentWork();
+	   aw.writeAssignment("I am tired to write an Assignment");
+	}
+
+}

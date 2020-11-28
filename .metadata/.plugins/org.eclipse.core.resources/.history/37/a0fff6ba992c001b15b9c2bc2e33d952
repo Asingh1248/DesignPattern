@@ -1,0 +1,11 @@
+package com.krishna;
+
+public class PilotPen {
+	
+	public void mark (String str) {
+		// My Friend will give the Pen but not the source code.
+		
+		System.out.println(str);
+	}
+
+}

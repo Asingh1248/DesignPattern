@@ -1,0 +1,9 @@
+package com.animesh;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Channel {
+
+	private List <Subscriber> sub = new ArrayList<E>();
+}

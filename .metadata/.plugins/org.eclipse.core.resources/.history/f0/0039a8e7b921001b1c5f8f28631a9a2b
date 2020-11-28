@@ -1,0 +1,9 @@
+import com.phone.*;
+
+public class FactoryMain {
+   public static void main(String [] args) {
+	   //OS o = new Android();
+	   OS o = new Windows();
+	   o.spec();
+   }
+}

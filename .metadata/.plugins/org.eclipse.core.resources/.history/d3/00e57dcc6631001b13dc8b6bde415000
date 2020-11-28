@@ -1,0 +1,36 @@
+package com.animesh.prototype;
+
+public class Demo {
+
+	public static void main(String[] args) throws CloneNotSupportedException {
+		BookShop bs = new BookShop();
+		bs.setShopName("Ravechi");
+		// Assigning the value from Db
+		
+		bs.loadData();
+		bs.getBooks().remove(2); // 3rd is removed
+		
+		System.out.println(bs); // First Value is null + Books is 0
+		
+		
+		
+	    // POWER OF PROTOYPE DESIGN PATTERN
+		
+		//BookShop bs1 = new BookShop();
+		BookShop bs1 = (BookShop) bs.clone(); // Override it
+		// Its there in OBJECT CLASS -- ACCESS SPECIFIER IS PROTECTED
+		// Hence You need to give Permission to your class 
+		// CLONEABLE interface its marker interface -- Don't have any method
+		
+		// Shallow Cloning : Will get : - Not creating the two object Just two references   
+		// Deep Cloning : 
+		
+		bs1.setShopName("Bhavesh");
+		//bs1.loadData();// It will go to Database and fetch data and it could be time consuming
+		// Is there a way where we can get the data from Previous Object bs
+		// Hey bs can you give the data 
+		System.out.println(bs1);
+
+	}
+
+}

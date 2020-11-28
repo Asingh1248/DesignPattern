@@ -1,0 +1,5 @@
+package com.animesh.composite;
+
+public class ComputerPart {
+
+}

@@ -1,0 +1,13 @@
+package com.animesh.composite;
+
+public class ComputerPart {
+
+	class Leaf{
+		
+	}
+	
+	class Composite{
+		
+		
+	}
+}

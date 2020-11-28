@@ -1,0 +1,22 @@
+package com.adap;
+
+import com.krishna.PilotPen;
+
+public class School {
+
+	public static void main(String[] args) {
+		//Main Method In every school we get the Assignment
+	   
+	   //PilotPen pp =new PilotPen();
+	   AssignmentWork aw= new AssignmentWork();
+	   aw.setP(pp);  // Interface --> Write Implm --> Size,height, --> Friend Object of Friend Interface but he does'nt ha sit  
+	   
+	   // It still gives error : it accepts Pen Object not Pilot Pen Object
+	   aw.writeAssignment("I am bit tired to write an Assignment");
+	   // java.lang.NullPointerException
+	   // Problem : Pen writes the data
+	   // We are calling writeAssignment --> calling p --> Not Assigned any Memory to P
+	   
+	}
+
+}

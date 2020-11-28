@@ -1,0 +1,26 @@
+package com.animesh;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Channel {
+
+	private List <Subscriber> subs = new ArrayList<>();
+	private String title;
+	
+	public void subscribe(Subscriber sub) {
+		// Everytime you subscribe channel 
+		subs.add(sub);
+	}
+	
+	public void unSubscribe(Subscriber sub) {
+		subs.remove(sub);
+	}
+	
+	public void notify()
+	{
+		for(Subscriber sub : subs) {
+			sub.update(); // Video uploaded 
+		}
+	}
+}

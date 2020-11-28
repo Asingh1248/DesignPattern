@@ -1,0 +1,7 @@
+package com.animesh;
+
+public class Subscriber {
+	
+	private String name;
+
+}

@@ -1,0 +1,27 @@
+package com.animesh;
+
+public class Subscriber {
+	
+	private String name;
+	private Channel channel = new Channel();
+	
+	
+	
+	public Subscriber(String name) {
+		super();
+		this.name = name;
+	}
+
+	// Assuming that one Channel will have multiple Subscriber not like real wordl
+    
+	// You will get to know upload video-- Call all teh Subscriber
+	
+	public void update() {
+		System.out.println(" Hey " +name +" Video uploaded :" + title);
+	}
+	
+	public void subscribeChannel (Channel ch)
+	{
+		channel =ch;
+	}
+}

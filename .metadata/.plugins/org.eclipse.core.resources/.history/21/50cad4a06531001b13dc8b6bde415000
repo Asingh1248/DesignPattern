@@ -1,0 +1,28 @@
+package com.animesh.prototype;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		BookShop bs = new BookShop();
+		bs.setShopName("Ravechi");
+		// Assigning the value from Db
+		bs.loadData();
+		
+		System.out.println(bs); // First Value is null + Books is 0
+		
+	    // POWER OF PROTOYPE DESIGN PATTERN
+		
+		//BookShop bs1 = new BookShop();
+		BookShop bs1 = bs.clone();
+		// SHallow Cloning :
+		// Deep Cloning : 
+		
+		bs1.setShopName("Bhavesh");
+		bs1.loadData();// It will go to Database and fetch data and it could be time consuming
+		// Is there a way where we can get the data from Previous Object bs
+		// Hey bs can you give the data 
+		System.out.println(bs1);
+
+	}
+
+}

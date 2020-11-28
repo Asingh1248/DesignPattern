@@ -1,0 +1,10 @@
+package com.animesh;
+
+public class Youtube {
+   public static void main(String args[]) {
+	   
+	   Channel telusko = new Channel();
+	   
+	   Subscriber s1 = new Subscriber("Animesh");
+   }
+}

@@ -1,0 +1,10 @@
+package com.animesh;
+
+public class Subscriber {
+	
+	private String name;
+	private Channel channel;
+	
+	// Assumming that one Channel will have multiple Subscriber not like real wordl
+   // You will get to know upload video
+}

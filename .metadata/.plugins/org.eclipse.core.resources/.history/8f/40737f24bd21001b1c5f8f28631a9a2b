@@ -1,0 +1,8 @@
+package com.phone;
+//Build my own phone
+public class Phone {
+   private String os;
+   private int ram;
+   private String processor;
+   
+}
